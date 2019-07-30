@@ -1,0 +1,22 @@
+{
+  "name": "BuzzyPDFKit",
+  "version": "0.1.0",
+  "summary": "A short description of BuzzyPDFKit",
+  "description": "A short description of BuzzyPDFKit - BuzzyPDFKit just used to testing purpose",
+  "homepage": "https://github.com/jadhavarun94/BuzzyPDFKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jadhavarun94": "aj71312gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/jadhavarun94/BuzzyPDFKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "BuzzyPDFKit/Classes/**/*"
+}

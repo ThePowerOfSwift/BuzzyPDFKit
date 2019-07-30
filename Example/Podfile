@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BuzzyPDFKit_Example' do
+  pod 'BuzzyPDFKit', :path => '../'
+
+  target 'BuzzyPDFKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
