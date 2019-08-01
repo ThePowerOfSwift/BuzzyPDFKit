@@ -95,6 +95,9 @@ open class PDFViewController: UIViewController {
     override open func viewDidLoad() {
         super.viewDidLoad()
         
+        let a = UIImage.bundledImage("thumbs")
+        print("AAA",a)
+        
         pageScrubber = PDFPageScrubber(frame: CGRect(x: 0, y: view.frame.size.height - bottomLayoutGuide.length, width: view.frame.size.width, height: 44.0), document: document)
         pageScrubber.scrubberDelegate = self
         pageScrubber.translatesAutoresizingMaskIntoConstraints = false

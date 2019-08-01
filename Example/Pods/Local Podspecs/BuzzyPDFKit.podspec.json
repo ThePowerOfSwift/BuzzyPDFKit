@@ -2,7 +2,7 @@
   "name": "BuzzyPDFKit",
   "version": "0.1.0",
   "summary": "A short description of BuzzyPDFKit.",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "Library description",
   "homepage": "https://github.com/jadhavarun94/BuzzyPDFKit",
   "license": {
     "type": "MIT",
@@ -16,7 +16,17 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "BuzzyPDFKit/Classes/**/*"
+  "source_files": "BuzzyPDFKit/Classes/**/*",
+  "resource_bundles": {
+    "BuzzyPDFKit": [
+      "Pod/Assets/**/*.{xcassets,png,json}"
+    ]
+  },
+  "dependencies": {
+    "Alamofire": [
+
+    ]
+  }
 }

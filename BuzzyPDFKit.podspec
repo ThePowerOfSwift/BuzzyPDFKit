@@ -27,13 +27,15 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/jadhavarun94/BuzzyPDFKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.requires_arc = true
 
-  s.source_files = 'BuzzyPDFKit/Classes/**/*'
-  #['BuzzyPDFKit/**/*.{xcassets,png,json}']
-  # s.resource_bundles = {
-  #   'BuzzyPDFKit' => ['BuzzyPDFKit/Assets/*.png']
-  # }
+  s.ios.deployment_target = '9.0'
+
+  s.ios.source_files = 'BuzzyPDFKit/Classes/**/*'
+  
+   s.resource_bundles = {
+     'BuzzyPDFKit' => ['BuzzyPDFKit/**/*.{xcassets,png,json}']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

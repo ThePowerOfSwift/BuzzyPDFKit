@@ -1,15 +1,22 @@
 PODS:
-  - BuzzyPDFKit (0.1.0)
+  - Alamofire (4.8.2)
+  - BuzzyPDFKit (0.1.0):
+    - Alamofire
 
 DEPENDENCIES:
   - BuzzyPDFKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
 
 EXTERNAL SOURCES:
   BuzzyPDFKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BuzzyPDFKit: 667334d05f5f1abc0ac89fad6e758249a97a5790
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  BuzzyPDFKit: b223a99114041391149324430395830375251815
 
 PODFILE CHECKSUM: d1e8372ab0be46def475c52148b05c43de477e8d
 

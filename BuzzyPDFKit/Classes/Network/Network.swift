@@ -21,7 +21,7 @@ class Network: NSObject {
             {
             case .success:
                 do {
-                    print(response.value)
+                    print(response.value as Any)
                 //    let decoder = JSONDecoder()
                     print("API response",response)
                     //completion(bookApproveAPI.result.success)
