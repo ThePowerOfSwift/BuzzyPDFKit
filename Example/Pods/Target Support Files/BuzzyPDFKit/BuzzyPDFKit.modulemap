@@ -1,0 +1,6 @@
+framework module BuzzyPDFKit {
+  umbrella header "BuzzyPDFKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

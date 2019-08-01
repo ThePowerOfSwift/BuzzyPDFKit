@@ -1,0 +1,16 @@
+PODS:
+  - BuzzyPDFKit (0.1.0)
+
+DEPENDENCIES:
+  - BuzzyPDFKit (from `../`)
+
+EXTERNAL SOURCES:
+  BuzzyPDFKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BuzzyPDFKit: 667334d05f5f1abc0ac89fad6e758249a97a5790
+
+PODFILE CHECKSUM: d1e8372ab0be46def475c52148b05c43de477e8d
+
+COCOAPODS: 1.7.3

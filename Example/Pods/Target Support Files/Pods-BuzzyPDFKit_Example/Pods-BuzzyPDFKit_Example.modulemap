@@ -1,0 +1,6 @@
+framework module Pods_BuzzyPDFKit_Example {
+  umbrella header "Pods-BuzzyPDFKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
